@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club d'Aïkido – Palais des Sports de Charmes</title>
+    <style>
+        body{font-family:Arial, sans-serif;margin:0;background:#f4f4f4;color:#222}
+        header{background:#1a1a1a;color:white;padding:25px;text-align:center}
+        nav{background:#333;padding:12px;text-align:center;position:sticky;top:0}
+        nav a{color:white;margin:0 12px;text-decoration:none;font-weight:bold}
+	.banniere{
+width:100%;
+height:auto;
+max-height:500px;
+object-fit:contain;
+}
+        section{padding:40px 20px;max-width:1000px;margin:auto}
+        .card{background:white;padding:25px;margin:20px 0;border-radius:10px;box-shadow:0 3px 8px rgba(0,0,0,0.15)}
+        .team{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:25px}
+        .member{text-align:center}
+        .member img{width:150px;height:150px;object-fit:cover;border-radius:50%}
+        h2{margin-top:0}
+        table{width:100%;border-collapse:collapse}
+        th,td{border:1px solid #ccc;padding:12px;text-align:center}
+        th{background:#eee}
+        .contact-box{margin:10px 0;font-size:18px}
+        .map{margin-top:20px}
+        footer{background:#1a1a1a;color:white;text-align:center;padding:20px;margin-top:40px}
+	.contact-ligne{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;   /* centre verticalement le texte et l'image */
+    gap:20px;             /* espace entre téléphone et logo */
+}
+.contact-box p:last-child {
+    margin-top: 70px; /* ajuste la valeur selon le rendu */
+}
+
+.logo-ffab{
+    width:300px;          /* 5 fois plus grand qu’avant (60px → 300px) */
+    height:auto;
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="banniere-aikido.png" class="banniere">
+    <h1>Aïkido Club de Charmes</h1>
+    <p>Complexe Sportif Jean Robert Simonin Charmes</p>
+</header>
+
+<nav>
+    <a href="#presentation">Présentation</a>
+    <a href="#horaires">Horaires</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#equipe">Équipe</a>
+    <a href="#photos">Photos</a>
+    <a href="#acces">Accès</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="presentation">
+    <h2>Le Club de Charmes !</h2>
+    <p>Le club d'Aïkido du Palais des Sports de Charmes propose des cours pour enfants, adultes débutants et pratiquants confirmés.</p>
+</section>
+
+<section id="aikido">
+    <h2>Qu'est-ce que l'Aïkido ?</h2>
+    <p>L'Aïkido est un art martial japonais fondé par Morihei Ueshiba. Il se concentre sur l'harmonisation des mouvements et la défense contre des attaques. Il repose sur la non-violence, le contrôle de l'adversaire et la recherche d'harmonie plutôt que l'opposition directe.
+    Cet Art est accessible à tous et favorise le respect, la discipline, et la maîtrise de soi.</p>
+</section>
+
+<section id="horaires">
+    <h2>Horaires des Cours</h2>
+    <table>
+        <tr>
+            <th>Jour</th>
+            <th>Cours</th>
+            <th>Heure</th>
+        </tr>
+        <tr>
+            <td>Lundi</td>
+            <td>Senior & Débutant</td>
+            <td>16h45 – 18h00</td>
+        </tr>
+        <tr>
+            <td>Lundi</td>
+            <td>Tous Niveaux</td>
+            <td>18h15 – 19h30</td>
+        </tr>
+        <tr>
+            <td>Mercredi</td>
+            <td>Enfants</td>
+            <td>17h00 – 18h15</td>
+        </tr>
+        <tr>
+            <td>Mercredi</td>
+            <td>Senior & Débutant</td>
+            <td>18h30 – 20h00</td>
+        </tr>
+        <tr>
+            <td>Mercredi</td>
+            <td>Tous Niveaux</td>
+            <td>20h15 – 21h30</td>
+        </tr>
+        <tr>
+            <td>Vendredi</td>
+            <td>Tous Niveaux</td>
+            <td>18h15 – 19h45</td>
+        </tr>
+    </table>
+</section>
+
+<section id="tarifs">
+    <h2>Tarifs</h2>
+    <table>
+        <tr>
+            <th>Abonnement (Licence comprise)</th>
+            <th>Prix</th>
+        </tr>
+        <tr>
+            <td>Trimestre Adultes</td>
+            <td>46 €</td>
+        </tr>
+        <tr>
+            <td>Annuel Adultes</td>
+            <td>138 €</td>
+        </tr>
+	<td>Annuel Enfants</td>
+            <td>68 €</td>
+        </tr>
+        <tr>
+            <td>3 Essais Gratuits pour Tous</td>
+            <td>Gratuit</td>
+        </tr>
+    </table>
+</section>
+
+<section id="equipe">
+    <h2>Notre Équipe</h2>
+    <div class="team">
+        <div class="member">
+	<p><strong>Enseignant</strong></p>
+            <img src="David Westermann 4段 Yondan.jpg" alt="Enseignant">
+            <p>David Westermann</p>
+	    <p class="grade">4段 Yondan</p>
+        </div>
+	<div class="member">
+	<p><strong>Enseignant</strong></p>
+            <img src="Olivier Grange.png" alt="Enseignant">
+	    <p>Olivier Grange</p>
+	    <p class="grade">4段 Yondan</p>
+	</div>
+        <div class="member">
+	<p><strong>Président</strong></p>
+            <img src="Daniel Gauducheau.jpg" alt="Président">
+            <p>Daniel Gauducheau</p>
+	    <p class="grade">3段 Sandan</p>
+        </div>
+        <div class="member">
+	<p><strong>Secrétaire</strong></p>
+            <img src="secretaire.jpg" alt="Secrétaire">
+            <p>Coralie Maire</p>
+	    <p class="grade">1級 Kyū</p>
+        </div>
+        <div class="member">
+	<p><strong>Trésorier</strong></p>
+            <img src="David Westermann 4段 Yondan.jpg" alt="Trésorier">
+            <p>David  Westermann</p>
+	</div>
+        <div class="member">
+	<p><strong>Président d’Honneur</strong></p>
+            <img src="Hubert Bogard.png" alt="Président d’honneur">
+            <p>Hubert  Bogard</p>
+        </div>
+        <div class="member">
+	<p><strong>Fondateur du Club</strong></p>
+            <img src="Rene Trognon1.jpg" alt="Fondateur du Club">
+            <p>Rene  Trognon  冥福を祈る 'RIP' </p>
+	    <p class="grade">7段 Shichidan</p>
+        </div>
+    </div>
+</section>
+
+<section id="photos">
+    <h2>Galerie de Photos</h2>
+    <div class="card">
+        <img src="groupe1.jpg" alt="Photo du Groupe" style="width:100%">
+    </div>
+</section>
+
+<section id="acces">
+    <h2>Accès</h2>
+    <div class="map">
+        <iframe src="https://www.google.com/maps?q=48.3756206,6.298594&z=17&output=embed" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-box">
+        <div class="contact-ligne">
+    <p>Téléphone : 06 95 95 24 69</p>
+    <img src="logo-ffab.jpg" alt="FFAB" class="logo-ffab">
+</div>
+        <p>Email : acc88@outlook.fr</p>
+        <p>Facebook : <a href="https://www.facebook.com/profile.php?id=100064636097775" target="_blank">Aïkido Charmes</a></p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Club d'Aïkido de Charmes. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
